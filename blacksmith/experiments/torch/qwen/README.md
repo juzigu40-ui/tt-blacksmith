@@ -67,6 +67,17 @@ python3 blacksmith/experiments/torch/qwen/test_qwen_finetuning.py --config black
 ```
 Working mesh shapes for Blackhole QuietBox: `[1, 4]` (data, model)
 
+
+### Qwen 3 8B Training
+
+Qwen 3 8B supports training on blackhole quietbox.
+
+**QuietBox Training:**
+```bash
+python3 blacksmith/experiments/torch/qwen/test_qwen_finetuning.py --config blacksmith/experiments/torch/qwen/quietbox/test_qwen_3_8b_finetuning.yaml
+```
+Working mesh shapes for Blackhole QuietBox: `[1, 4]` (data, model)
+
 ## Data
 
 
